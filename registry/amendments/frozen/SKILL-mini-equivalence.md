@@ -13,6 +13,7 @@ Status: `PASS` by manual clause mapping. Source: The Algorithm v2 supplied in th
 | PROVIDE fixed order and prompt schema | `Fixed template P` and `Fixed prompt schema P·STE`; no interposed content |
 | ASSAY fixed order and closing string | `Fixed template A`; `A` protocol; F5 terminator; no gate |
 | Four seats and seat-label firewall | `Seats 席`: exact seats, one seat per utterance, multiple seats per person, named switching, Algorithm non-borrowing |
+| Clearance and customer-seat reservation | `Clearance C`: 🟥 RED default; 🟧 ORANGE/🟨 YELLOW/🟩 GREEN require live human notice and reserve `Customer`; no silent escalation or seat switch |
 | Mermaid workflow | `Routing/workflow 流` state machine: dispatch, floor, gaps, cut, gate, tools, execute, success, reopen |
 | Customer/facilitator scene | `P scene + isolation`: real facilitator, self-customer seat labels, written-only inputs, ready handoff |
 | Tool/self-hosting integrity | `Tool check 🛠`; no tools means no run; `Self-hosting 自己適用` with exact four floor nouns and amendment meter |
