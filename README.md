@@ -1,3 +1,10 @@
+Here is a condensed, high-level summary:
+
+* **Core Workflow:** **The Algorithm** enforces a strict **Negotiate → Freeze → Execute → Verify** cycle to safely manage work across AI models and human collaborators.
+* **Execution Gate:** No action is taken until four key factors (**Audience, Scope, Format, Path**) and the controlling instruction are locked into a **Frozen** state.
+* **Governance & Authority:** **`SKILL.md`** is the sole canonical source of doctrine. Changes require formal, signed human approval; lower-level files, habits, and history cannot alter doctrine without going through the gate.
+* **Receiver Agnosticism:** The protocol assumes any worker (AI or human) may misinterpret rules or act prematurely, relying on strict system gates rather than trust to ensure compliance.
+  
 Here is a concise summary of the provided text:
 
 ---
