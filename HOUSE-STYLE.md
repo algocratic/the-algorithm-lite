@@ -6,7 +6,7 @@ repoint amendment freezes.
 
 ## This file under its own law
 This file is HUMAN mode, declared. Every sentence outside exempt blocks obeys the subset.
-HUMAN mode should conform to STE100 Simplified Technical English (use, not utilize). 
+HUMAN mode should conform to STE100 Simplified Technical English. 
 The fixed-string block is a contract, exempt by rule 8. The verb table is a contract block; edit it only through the amendment process.
 Lint this file before any other. If it fails, the failure list ships with it.
 Exemption from condensation is not exemption from style. The reason section below keeps
@@ -96,19 +96,8 @@ this style alone adopts nine verbs. SHIP enters with the system that defines its
 - Build the linter. Run it as an assayer: it reports, it never rewrites.
 - Rule 9 outranks the linter. The linter flags; the peer decides.
 
-## Validation — proposed A/B (recorded plan)
-- Two editions exist for the test. Edition A: this file, pedagogy included.
-  Edition B: the subset, nouns, strings, and tables only. No reason sections.
-- Give each edition to fresh readers, human and model. Same three tasks:
-  write one governed page; lint it; name the three invariants from memory.
-- Compare: lint pass rate, invariant recall, adoption friction.
-- Prediction on record: B wins the lint rate; A wins the recall. If both halves hold,
-  the finding is that pedagogy carries beliefs and the subset carries behavior —
-  and v2.1 ships both, because the Dilts filing said levels do not substitute.
-- The losing edition goes to the crypt, kept.
-
 ## Supplier record
 Upstream: ASD-STE100 Issue 9. Recorded as a supplier, not an authority. No license held.
 No external document governs this repository. One line of respect, earned: the supplier
 has run a version of our gate since 1983 — change forms, human review, recorded
-amendments, deliberate distribution. We gratefully follow in the footsteps of their discipline. 
+amendments, deliberate distribution. 

@@ -1,34 +1,57 @@
+Here is a condensed, high-level summary:
 
+* **Core Workflow:** **The Algorithm** enforces a strict **Negotiate → Freeze → Execute → Verify** cycle to safely manage work across AI models and human collaborators.
+* **Execution Gate:** No action is taken until four key factors (**Audience, Scope, Format, Path**) and the controlling instruction are locked into a **Frozen** state.
+* **Governance & Authority:** **`SKILL.md`** is the sole canonical source of doctrine. Changes require formal, signed human approval; lower-level files, habits, and history cannot alter doctrine without going through the gate.
+* **Receiver Agnosticism:** The protocol assumes any worker (AI or human) may misinterpret rules or act prematurely, relying on strict system gates rather than trust to ensure compliance.
+  
+Here is a concise summary of the provided text:
 
-# "The Algorithm": Dynamic Workflow Management.
+---
 
-## the_algorithm would like to thank you for your continued cooperation.
+## Overview
 
-A discipline for working with language models under a gate: negotiate, freeze, execute, verify. One protocol, any receiver — students, peers, agents.
+**The Algorithm** is a standardized workflow designed for managing collaboration with language models (or human receivers) under strict oversight. Its core governing framework operates on a four-step cycle: **Negotiate → Freeze → Execute → Verify**.
 
-**The hallway version** (thirty seconds, reader-side): *four nouns — Audience, Scope, Format, Path — then find the sentence that changes the world, then check what floor it is buried on.*
+---
 
-## Map
+## Core Protocol & Inspection Framework
 
-- `SKILL.md` — **canonical doctrine.** The Algorithm v2. The Invariants section is amendment-only; its amendment record is the drift meter. Everything else in this repo is downstream of this file.
-- `HOUSE-STYLE.md` — the vendored controlled-language subset (DRAFT — pending amendment; see `registry/amendments/pending/`).
-- `registry/KEEP.md` — the decision register: what we keep, the thought trains, honest freeze status per entry.
-- `registry/SEATS.md` — seat map (state, not doctrine; reopens on every model release and probe run).
-- `registry/probe_battery_v0.md` — behavior probes that convert seat assignments from priors to measurements.
-- `registry/amendments/pending/` — proposed invariant amendments, named by working title. Ordinals are assigned at freeze, never at proposal.
-- `lore/` — resonance assays. Stories that test whether a reader carries the same weights in the region that matters; the human analog of the probe battery. See `lore/README.md`.
-- `bridge/BRIDGE.md` — field report from an agent that worked a long session under the gate. Onboarding for negotiation-seat agents only.
-- `_historical/` — strata. Append-only witness; see its README
-- `assets/` — image and media files the repository ships. A future web page reads from here.
+### The Four Inspection Nouns
 
-## Rules of this repository
+Before starting any task, four parameters must be established:
 
-- **Main is the trunk.** A merge to main that touches doctrine is a freeze and requires the authorized human signature. Proposals live on branches named by content, not number.
-- **Nothing is edited in place in the Invariants.** Amend through the gate, record in the amendment record. An unrecorded change to Invariants is a defect, whoever made it.
-- **Old branches are strata.** Pre-doctrine branches are not deleted; the history is the one witness that never summarizes.
-- **The founding commit is a signature.** This staging was prepared on the negotiation side; the human committing it performs the first freeze.
+1. **Audience:** Who receives the work?
+2. **Scope:** What is permitted to change?
+3. **Format:** What structure must the result take?
+4. **Path:** What specific action moves the work forward?
 
-```
-10 PRINT ("ty4yc")
-20 END
-```
+### Execution Rules
+
+1. Identify the **controlling sentence** (the language that changes the permitted state of the world).
+2. Determine what "floor" or level of authority that sentence sits on.
+3. **Never execute** until the controlling language is officially frozen.
+
+---
+
+## Authority & Repository Architecture
+
+Files and repository artifacts operate under a strict **Hierarchy of Authority** (higher ranks override lower ones):
+
+1. **`SKILL.md` (Frozen Invariants & Doctrine):** The single canonical source of truth containing *The Algorithm v2*. Invariants can only be changed through formal amendments.
+2. **Recorded Amendments:** Official, assigned logs of changes to invariants.
+3. **`registry/KEEP.md`:** The decision register recording project choices and reasoning.
+4. **`registry/SEATS.md` & `probe_battery_v0.md`:** Current operational state and receiver measurements (subject to change based on evidence).
+5. **Operational Guidance (`bridge/BRIDGE.md`):** Non-canonical agent field reports and onboarding guides.
+6. **Proposals (`HOUSE-STYLE.md`, `registry/amendments/pending/`):** Pending drafts on named branches.
+7. **Lore & Historical Witnesses (`lore/`, `_historical/`):** Qualitative resonance assays and historical strata used for context or defect detection, never for doctrine.
+
+---
+
+## Key Governance Rules
+
+* **Human Signature Required:** A merge to `main` that alters doctrine is a freeze and strictly requires approval/signing from the authorized human.
+* **No In-Place Edits:** Invariants cannot be silently rewritten; changes must follow the full proposal, review, and freeze pipeline.
+* **Separation of State and Doctrine:** Practical habits, prompt patterns, or seat assignments are operational *state*, not doctrine, and must be formally promoted to become invariants.
+* **Branch Persistence:** Superseded or historical branches are kept as permanent, un-summarized witness history.
+* **Receiver Agnosticism:** The gate exists assuming receivers (humans or AIs) will misinterpret authority, execute prematurely, or obscure defects. Safe operation relies on enforced contracts, not receiver trust.
