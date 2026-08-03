@@ -6,6 +6,7 @@ repoint amendment freezes.
 
 ## This file under its own law
 This file is HUMAN mode, declared. Every sentence outside exempt blocks obeys the subset.
+HUMAN mode should conform to STE100 Simplified Technical English (use, not utilize). 
 The fixed-string block is a contract, exempt by rule 8. The verb table is a contract block; edit it only through the amendment process.
 Lint this file before any other. If it fails, the failure list ships with it.
 Exemption from condensation is not exemption from style. The reason section below keeps
