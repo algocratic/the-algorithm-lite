@@ -111,4 +111,4 @@ this style alone adopts nine verbs. SHIP enters with the system that defines its
 Upstream: ASD-STE100 Issue 9. Recorded as a supplier, not an authority. No license held.
 No external document governs this repository. One line of respect, earned: the supplier
 has run a version of our gate since 1983 — change forms, human review, recorded
-amendments, deliberate distribution. We did not invent the discipline. We recognized it.
+amendments, deliberate distribution. We gratefully follow in the footsteps of their discipline. 
