@@ -55,3 +55,13 @@ Files and repository artifacts operate under a strict **Hierarchy of Authority**
 * **Separation of State and Doctrine:** Practical habits, prompt patterns, or seat assignments are operational *state*, not doctrine, and must be formally promoted to become invariants.
 * **Branch Persistence:** Superseded or historical branches are kept as permanent, un-summarized witness history.
 * **Receiver Agnosticism:** The gate exists assuming receivers (humans or AIs) will misinterpret authority, execute prematurely, or obscure defects. Safe operation relies on enforced contracts, not receiver trust.
+
+## HOUSE-STYLE assay
+
+Run the read-only assayer with:
+
+```sh
+./assay.py
+```
+
+Pass Markdown files or directories to limit the scan. The command reports evidence for sentence and paragraph limits. It checks `GATE` used as a verb. It checks fixed-string placement in formatter-owned containers. It never rewrites a document. Exit status `1` means that the command emitted findings.
